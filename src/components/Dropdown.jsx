@@ -1,5 +1,7 @@
 import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
+import Link from "next/link";
+
 // import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 function classNames(...classes) {
@@ -30,7 +32,7 @@ export default function Example() {
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (
-                <a
+                <Link
                   href="#"
                   className={classNames(
                     active
@@ -40,12 +42,12 @@ export default function Example() {
                   )}
                 >
                   FAQ's
-                </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <a
+                <Link
                   href="#"
                   className={classNames(
                     active
@@ -55,12 +57,12 @@ export default function Example() {
                   )}
                 >
                   Interview Tips
-                </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <a
+                <Link
                   href="#"
                   className={classNames(
                     active
@@ -70,7 +72,7 @@ export default function Example() {
                   )}
                 >
                   Send Feedback
-                </a>
+                </Link>
               )}
             </Menu.Item>
             <form method="POST" action="#">
