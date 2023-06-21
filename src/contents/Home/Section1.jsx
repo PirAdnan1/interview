@@ -1,9 +1,10 @@
 import React from "react";
-
+import Container from "@/components/Container";
 // assets
 
 function Section1() {
   return (
+    <Container>
     <div className="mt-20 flex flex-col justify-center max-w-[900px] mx-auto bg-white px-4 sm:px-0">
       <h1 className="text-3xl text-center">How its works:</h1>
       <video
@@ -21,6 +22,7 @@ function Section1() {
         your answers are transcribed in real time
       </p>
     </div>
+    </Container>
   );
 }
 

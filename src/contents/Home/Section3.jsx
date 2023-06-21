@@ -1,7 +1,10 @@
 import React from "react";
+import Container from "@/components/Container";
+
 
 function Section3() {
   return (
+    <Container>
     <div className="mt-20 flex flex-col justify-center max-w-[900px] mx-auto bg-white px-4 sm:px-0">
       <video
         controls
@@ -18,6 +21,7 @@ function Section3() {
         building your confidence in a judgement-free zone
       </p>
     </div>
+    </Container>
   );
 }
 

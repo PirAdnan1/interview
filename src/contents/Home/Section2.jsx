@@ -1,7 +1,9 @@
 import React from "react";
+import Container from "@/components/Container";
 
 function Section2() {
   return (
+    <Container>
     <div className="mt-20 flex flex-col justify-center max-w-[900px] mx-auto bg-white px-4 sm:px-0">
       <video
         controls
@@ -20,6 +22,7 @@ function Section2() {
         used, your most-used words, and talking points you covered.
       </p>
     </div>
+    </Container>
   );
 }
 
