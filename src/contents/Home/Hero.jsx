@@ -32,17 +32,18 @@ function Hero() {
         <div className="flex flex-col justify-center items-center pt-52 pb-36 px-4 sm:px-0">
           <Image src={LogoImage} width={550} alt="..." />
           <div className="max-w-[650px] text-center text-xl mt-4 text-[#555E6D]">
-            <div className="flex">
-              <span className="">
+            <div className="flex flex-col items-center sm:flex-row text-left sm:text-center">
+              <span>
                 A quick way to prepare for your next interview in&nbsp;
               </span>
               <span
                 className={
-                  "show bg-blue-200 rounded-md px-2 overflow-x-hidden flex max-w-fit whitespace-nowrap"
+                  "show bg-blue-200 rounded-md px-2 overflow-hidden flex max-w-fit whitespace-nowrap"
                 }
               >
                 {spans[currentSpanIndex]}
               </span>
+
               <br />
             </div>
             <span>
