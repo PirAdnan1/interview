@@ -39,8 +39,7 @@ export default function Example() {
                       ? "bg-gray-100 text-[#555E6D] text-lg"
                       : "text-[#555E6D] text-lg",
                     "block px-4 py-2 text-sm"
-                  )}
-                >
+                  )}>
                   FAQ's
                 </Link>
               )}
