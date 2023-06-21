@@ -40,7 +40,7 @@ export default function Example() {
                       : "text-[#555E6D] text-lg",
                     "block px-4 py-2 text-sm"
                   )}>
-                  FAQ's
+                  FAQ
                 </Link>
               )}
             </Menu.Item>
